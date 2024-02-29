@@ -95,9 +95,7 @@ class Cart {
     }
     
     func clear() {
-        for index in 0 ... products.count {
-            products.remove(at: index)
-        }
+        products.removeAll()
     }
     
     func totalPrice() -> Double {
@@ -361,7 +359,7 @@ screen.printCheck(cart: cart)
 
 // Початок коду сценарію для Пункт 2
 
-/*
+
  
 print("\nSCENARIO 2:\n")
 
@@ -373,7 +371,7 @@ cart.clear()
 // Користувач натискає кнопку "Оформити замовлення", щоб побачити чек
 screen.printCheck(cart: cart)
 
- */
+ 
 
 // Кінець коду сценарію для Пункт 2
 
