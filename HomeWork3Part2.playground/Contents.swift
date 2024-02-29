@@ -289,7 +289,7 @@ class Screen {
 
 // Початок коду сценарію для Пункт 1
 
-/*
+
 
 print("SCENARIO 1:\n")
 
@@ -306,7 +306,7 @@ let cart = Cart()
 // Звертаємось до поля (змінної класу Cart), щоб записати в неї масив сконвертованих даних
 cart.products = dataMapper.products(from: receivedProducts)
 // Звертаємось до поля (змінної класу Cart), щоб записати значення discount
-cart.discount = .none
+cart.discount = .vip
 
 // Створюємо константу для зберігання "екземпляру" (instanse) Screen
 let screen = Screen()
@@ -314,7 +314,7 @@ let screen = Screen()
 // і передаємо константу cart як параметр у функцію
 screen.printCheck(cart: cart)
 
-*/
+
 
 // Кінець коду сценарію для Пункт 1
 
